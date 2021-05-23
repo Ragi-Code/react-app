@@ -1,0 +1,30 @@
+/*  src/Title.css  */
+
+.Title {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.1em;
+    margin-bottom: 0em;
+    background-color:#6495ED;
+    color: #1e4131;
+  }
+
+  /* Style the header links */
+.Links a {
+  position: relative;
+  float: left;
+  color: white;
+  text-align: right;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 26px;
+  line-height: 360px;
+  border-radius: 80px;
+}
+/* Float the link section to the right */
+.Title-right {
+  float: right;
+}
